@@ -29,3 +29,31 @@ ex: let userName= "shane02"
 6. undefined -> undefined is a datatype
    * null is a standalone value and its datatype is object
 7. object
+
+# Conversion of datatypes
+
+* **Converting to Number** <br />
+1. let score = "50" <br />
+  let scoreConverted = Number(score) <br />
+  console.log(scoreConverted) <br />
+  OUTPUT : 50
+2. let score = "50abc" <br />
+   let scoreConverted = Number(score) <br />
+   console.log(scoreConverted) <br />
+   OUTPUT: NaN <br />
+3. let score = "" <br />
+   let scoreConverted = Number(score) <br />
+   console.log(scoreConverted) <br />
+   OUTPUT: 0 <br />
+4. let score = true <br />
+   let scoreConverted = Number(score) <br />
+   console.log(scoreConverted); <br />
+   OUTPUT: 1 <br />
+5. let score = null <br />
+   let scoreConverted = Number(score) <br />
+   console.log(scoreConverted); <br />
+   OUTPUT: 0 <br />
+6. let score = undefined <br />
+   let scoreConverted = Number(score) <br />
+   console.log(scoreConverted); <br />
+   OUTPUT: NaN <br />

@@ -34,9 +34,9 @@ ex: let userName= "shane02"
 
 * **Converting to Number** <br />
 1. let score = "50" <br />
-  let scoreConverted = Number(score) <br />
-  console.log(scoreConverted) <br />
-  OUTPUT : 50
+   let scoreConverted = Number(score) <br />
+   console.log(scoreConverted) <br />
+   OUTPUT : 50
 2. let score = "50abc" <br />
    let scoreConverted = Number(score) <br />
    console.log(scoreConverted) <br />
@@ -57,3 +57,24 @@ ex: let userName= "shane02"
    let scoreConverted = Number(score) <br />
    console.log(scoreConverted); <br />
    OUTPUT: NaN <br />
+* **Converting to Boolean** <br />
+1. let score = "50" <br />
+   let scoreConverted = Boolean(score) <br />
+   console.log(scoreConverted) <br />
+   OUTPUT : true
+2. let score = "" <br />
+   let scoreConverted = Boolean(score) <br />
+   console.log(scoreConverted) <br />
+   OUTPUT : false
+3. let score = 50 <br />
+   let scoreConverted = Boolean(score) <br />
+   console.log(scoreConverted) <br />
+   OUTPUT : true
+4. let score = null <br />
+   let scoreConverted = Boolean(score) <br />
+   console.log(scoreConverted) <br />
+   OUTPUT : false
+5. let score = undefined <br />
+   let scoreConverted = Boolean(score) <br />
+   console.log(scoreConverted) <br />
+   OUTPUT : false

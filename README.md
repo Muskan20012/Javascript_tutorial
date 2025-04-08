@@ -22,7 +22,7 @@ ex: let userName= "shane02"
     
 # Some datatypes
 1.number -> ranging from min -(2^53 -1) and max 2^53 -1
-2.string -> group of ascii characters
+2. string -> group of ascii characters
 3.bigint
 4.boolean -> true/false
 5.symbol -> introduced in ES6 and used to add a unique property keys to an object

@@ -85,3 +85,15 @@ ex: let userName= "shane02"
 2. console.log(2 + "2") OUTPUT: 22
 3. console.log(1 + 2 + "2") OUTPUT: 32
 4. console.log("1" + 2 + 2) OUTPUT: 122
+
+# Popular Comparisions
+
+1. console.log(1>2<2) OUTPUT: true
+2. console.log(1<2==1) OUTPUT: true
+3. console.log("2" < 1) OUTPUT: false
+4. console.log("2" == 2) OUTPUT: true type conversion happened
+5. console.log("2" === 2) OUTPUT: false strict type checking
+6. console.log(null > 0) OUTPUT: false
+7. console.log(null == 0) OUTPUT: false When comparing "2" == 2, the string "2" is coerced to a number, resulting in 2 == 2, which is true. However, null == 0 evaluates to false because the == operator handles       null and undefined specifically. It considers them loosely equal to each other but not to any other value, including 0. This behavior is part of the language specification.
+8. console.log(null >= 0) OUTPUT: true because conversions convert null to a number so it is equivalent to checking if 0>=0
+9. console.log(undefined >= 0) OUTPUT: false

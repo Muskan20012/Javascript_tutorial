@@ -20,3 +20,12 @@ ex: let userName= "shane02"
     there is one more dev who used 'state' and assigned it a different value. Now there will be inconsistency with the values.
 
     
+# Some datatypes
+1.number -> ranging from min -(2^53 -1) and max 2^53 -1
+2.string -> group of ascii characters
+3.bigint
+4.boolean -> true/false
+5.symbol -> introduced in ES6 and used to add a unique property keys to an object
+6.undefined -> undefined is a datatype 
+* null is a standalone value and its datatype is object
+7. object

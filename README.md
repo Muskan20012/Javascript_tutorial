@@ -1,5 +1,5 @@
 # Javascript_tutorial
-A guide for know basics to intermediate Javascript
+A guide for basics to intermediate Javascript
 
 # defining variables
 There are three keywords which helps us to define a container in memory to store the values we want:

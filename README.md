@@ -21,14 +21,40 @@ ex: let userName= "shane02"
 
     
 # Some datatypes
+* Primitive datatype : means the program will return a copy of the value to you for the operations
 1. number -> ranging from min -(2^53 -1) and max 2^53 -1
 2. string -> group of ascii characters
 3. bigint
 4. boolean -> true/false
 5. symbol -> introduced in ES6 and used to add a unique property keys to an object
 6. undefined -> undefined is a datatype
-   * null is a standalone value and its datatype is object
-7. object
+7. null -> itis a standalone value and its datatype is object
+   
+* Non Primitive datatype : the program will refer to the variable in the memory
+  1. Array
+  2. Object
+  3. Functions
+
+* Premitive Datatypes
+
+                  Type                                   typeof
+
+                 Number                                   number
+                 String                                   string
+                 Boolean                                  boolean
+                 Bigint                                   bigint
+                 Symbol                                   symbol
+                 Null                                     object
+                 undefined                                undefined
+
+
+* Non-Premitive OR Referance OR Object datatype
+
+                  Type                                   typeof
+  
+                  Array                                 object
+                  Object                                object
+                  Function                            function object
 
 # Conversion of datatypes
 

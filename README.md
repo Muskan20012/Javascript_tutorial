@@ -78,3 +78,10 @@ ex: let userName= "shane02"
    let scoreConverted = Boolean(score) <br />
    console.log(scoreConverted) <br />
    OUTPUT : false
+
+**Popular questions**: Interviewers just asks these to check if you have read the guidelines. Otherwise these questions are of no use because why in this world you wanna add a number to string.
+
+1. console.log(2 + 2) OUTPUT : 4
+2. console.log(2 + "2") OUTPUT: 22
+3. console.log(1 + 2 + "2") OUTPUT: 32
+4. console.log("1" + 2 + 2) OUTPUT: 122

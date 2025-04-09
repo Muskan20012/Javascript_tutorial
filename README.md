@@ -21,6 +21,9 @@ ex: let userName= "shane02"
 
     
 # Some datatypes
+The datatypes are characterized on the basis of memory they are using. The datatype that uses **Stack memory** and when it is called a **<i>copy</i>** of the variable is given, so the changes made in copy doesn't effect the 
+original are called **primitve datatype**.
+The datatype which use **heap memory** and its <i>**reference**</i> is given when called by program are **Non primitive datatypes**
 * Primitive datatype : means the program will return a copy of the value to you for the operations
 1. number -> ranging from min -(2^53 -1) and max 2^53 -1
 2. string -> group of ascii characters

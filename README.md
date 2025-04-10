@@ -222,7 +222,7 @@ Ex:console.log(min(3,2,1,6)) // 6
 7. **random()**:gives a random number between 0 t0 1.<br>
 Ex: const min=10<br>
 const max=20<br>
-console.log(Math.floor(Math.random()*(max-min+1))+min) // 14
+console.log(Math.floor(Math.random()*(max-min+1))+min) // 14 <br>
 
 
 
